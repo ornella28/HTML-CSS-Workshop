@@ -15,7 +15,8 @@
   <main>
 
     <!--Table-->
-    <table>
+    <div class="top-section">
+    <table class="left-table">
         <link rel="stylesheet" href="style.css">
         <thead>
             <tr>
@@ -48,6 +49,43 @@
             
         </tbody>
     </table><br></br>
+
+    <!--Form-->
+    <form class="middle-form">
+        <h3>Order form</h3>
+        <p>Please fill this form to place your order</p>
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" placeholder="Enter your first name" required></br>
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" placeholder="Enter your last name" required></br>
+        <label for="address">Address</label>
+        <input type="text" id="address" placeholder="Put your address" required></br>
+        <label for="item">Item</label>
+        <input type="text" id="item" placeholder="Put your item" required><br></br>
+
+        <button type="submit">Submit your order</button><br>
+    </form><br></br>
+    
+
+    
+    
+    <table class="right-table">
+        <thead>
+            <tr>
+                <th>Dessert Menu</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cheescake</td>
+            </tr>
+        </tbody>
+        
+    </table>
+    </div>
+    <br><br>
+
+    <div class="bottom-table">
     <table>
         <thead>
             <tr>
@@ -72,35 +110,10 @@
                 <td>11.00-20.00</td>
             </tr>
         </tbody>
-    </table><br></br>
-    <table>
-        <thead>
-            <tr>
-                <th>Dessert Menu</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Cheescake</td>
-            </tr>
-        </tbody>
     </table>
-    <!--Form-->
-    <form action="">
-        <h3>Order form</h3>
-        <p>Please fill this form to place your order</p>
-        <label for="firstname">First Name</label>
-        <input type="text" id="firstname" placeholder="Enter your first name" required></br>
-        <label for="lastname">Last Name</label>
-        <input type="text" id="lastname" placeholder="Enter your last name" required></br>
-        <label for="address">Address</label>
-        <input type="text" id="address" placeholder="Put your address" required></br>
-        <label for="item">Item</label>
-        <input type="text" id="item" placeholder="Put your item" required><br></br>
-
-        <button type="submit">Submit your order</button><br>
-    </form><br></br>
-
+    </div>
+    <br></br>
+    
     
     
 
