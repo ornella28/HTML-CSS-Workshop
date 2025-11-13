@@ -46,9 +46,9 @@ text-align: center;
 
 
 .top-section {
-    display: flex;
+    display: flex;/*--The items in the topsection will be placed side by side,allows to flex to items*/
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: flex-start;/* will align items at the top*/
     padding: 20px;
     margin-bottom: 30px;
     /*opacity: 0.8;*/
@@ -99,14 +99,14 @@ button{
 
 .bottom-table {
     display: flex;
-    justify-content: center;
+    justify-content: center;/*align items horizontally*/
     margin-top: 20px;
 }
 table {
-    border-collapse: collapse;
+    border-collapse: collapse;/*borders of adjacent cells merge into one single line*/
     background-color: rgb(41, 18, 15);
     border-radius: 25px;
-    padding: 10px;
+    padding: 10px;/*space between the content and the border*/
     text-align: center;
     width: 400px;
     
