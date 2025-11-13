@@ -142,10 +142,18 @@ p{
     width: 600px;
     text-align: center;
     color: beige;
-    margin-left: 600px;
+    margin-left: 600px;/*push the whole grid to the right*/
     
     
-    
-
 }
 
+select{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    width: 300px;
+    
+}
