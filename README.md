@@ -12,4 +12,5 @@
 I inserted an image in the background and another image in the header as a background too.
 6. I created an ignore file locally, then commit and push remotely on github
 7. I created a README.md file remotely to write my report and then cloned it to sync with my local project
+8. ...
 
